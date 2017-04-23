@@ -4,9 +4,12 @@ MAINTAINER John Allen <john.allen@technekes.com>
 
 RUN \
   apk --no-cache add --virtual .rundeps \
+    ca-certificates \
+    curl \
+    docker \
     git \
     openssh-client \
-    docker \
     parallel \
-    curl \
-    ca-certificates
+    ruby \
+    ruby-bundler \
+    ruby-json
