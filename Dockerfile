@@ -12,4 +12,5 @@ RUN \
     parallel \
     ruby \
     ruby-bundler \
-    ruby-json
+    ruby-json && \
+  gem install danger --no-document
