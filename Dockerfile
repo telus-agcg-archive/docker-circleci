@@ -9,6 +9,7 @@ RUN \
     docker \
     git \
     openssh-client \
+    openssl \
     parallel \
     ruby \
     ruby-bundler \
