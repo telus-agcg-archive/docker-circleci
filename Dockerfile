@@ -1,4 +1,4 @@
-FROM docker/compose:1.17.1
+FROM docker/compose:1.19.0
 
 MAINTAINER John Allen <john.allen@technekes.com>
 
