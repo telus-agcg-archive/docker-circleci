@@ -4,6 +4,7 @@ MAINTAINER John Allen <john.allen@technekes.com>
 
 RUN \
   apk --no-cache add --virtual .rundeps \
+    bash \
     ca-certificates \
     curl \
     docker \
