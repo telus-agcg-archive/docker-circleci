@@ -1,5 +1,4 @@
-FROM docker/compose:1.19.0
-
+FROM docker/compose:alpine-1.29.2
 MAINTAINER John Allen <john.allen@technekes.com>
 
 RUN \
@@ -12,7 +11,7 @@ RUN \
     openssh-client \
     openssl \
     parallel \
-    ruby \
+    'ruby<3.0.0-r1' \
     ruby-bundler \
     ruby-json && \
   gem install danger --no-document
